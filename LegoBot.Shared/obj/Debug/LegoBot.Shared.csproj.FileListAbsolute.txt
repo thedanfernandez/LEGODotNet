@@ -1,0 +1,5 @@
+C:\Users\danielfe\Documents\GitHub\LegoBot\LegoBot.Shared\bin\Debug\LegoBot.Shared.dll
+C:\Users\danielfe\Documents\GitHub\LegoBot\LegoBot.Shared\bin\Debug\LegoBot.Shared.pdb
+C:\Users\danielfe\Documents\GitHub\LegoBot\LegoBot.Shared\obj\Debug\LegoBot.Shared.csprojResolveAssemblyReference.cache
+C:\Users\danielfe\Documents\GitHub\LegoBot\LegoBot.Shared\obj\Debug\LegoBot.Shared.dll
+C:\Users\danielfe\Documents\GitHub\LegoBot\LegoBot.Shared\obj\Debug\LegoBot.Shared.pdb

@@ -1,0 +1,53 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+    #header {
+        margin: 2em auto;
+    }
+
+    #marginDiv {
+        margin: 4px auto;
+    }
+
+    #forward {
+        margin-left: 60px;
+        width: 60px;
+        height: 60px;
+
+        
+    }
+
+    #left {
+        top: 40px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #right {
+        top: 40px;
+        margin-left: 60px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #back {
+        top: 80px;
+        margin-left: 60px;
+        width: 60px;
+        height: 60px;
+    }

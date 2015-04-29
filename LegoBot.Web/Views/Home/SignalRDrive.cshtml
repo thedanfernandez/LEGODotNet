@@ -1,0 +1,45 @@
+﻿n@{
+    ViewBag.Title = "LEGO";
+}
+
+<div class="jumbotron">
+    <h1>Browser Driving Robot!</h1>
+</div>
+
+<div class="container">
+    <div id="header">
+        <div id="marginDiv">
+            <button id="forward" class="btn btn-success" value="0">&#8657;</button>
+        </div>
+        <div id="marginDiv">
+            <button id="left" value="2" class="btn btn-success">&#8656;</button>
+            <button id="right" value="3" class="btn btn-success">&#8658;</button>
+        </div>
+        <div id="marginDiv">
+            <button id="back" value="1" class="btn btn-success">&#8659;</button>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/Scripts/jquery.signalR-2.0.3.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script>
+        $(function ()
+        {
+            // Reference the auto-generated proxy for the hub.
+            var driveHub = $.connection.signalRDriveHub;
+
+            // Start the connection.
+            $.connection.hub.start().done(function ()
+            {
+                //send button value on click to signalr proxy
+                $("button").button().click(function ()
+                {
+                    driveHub.server.sendDriveCommand(this.value);
+                });
+            });
+
+        });
+    </script>
+}

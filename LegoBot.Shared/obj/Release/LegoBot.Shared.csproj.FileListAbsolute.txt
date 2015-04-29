@@ -1,0 +1,4 @@
+C:\Users\danielfe\Documents\GitHub\LegoBot\LegoBot.Shared\bin\Release\LegoBot.Shared.dll
+C:\Users\danielfe\Documents\GitHub\LegoBot\LegoBot.Shared\bin\Release\LegoBot.Shared.pdb
+C:\Users\danielfe\Documents\GitHub\LegoBot\LegoBot.Shared\obj\Release\LegoBot.Shared.dll
+C:\Users\danielfe\Documents\GitHub\LegoBot\LegoBot.Shared\obj\Release\LegoBot.Shared.pdb
